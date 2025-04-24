@@ -8,7 +8,7 @@
             <field name="inherit_id" ref="product.product_template_form_view"/>
             <field name="arch" type="xml">
                 <xpath expr="//notebook/page[@name='sales']" position="after">
-                    <page string="Product Characteristics" name="product_characteristics_page">
+                    <page string="Characteristics" name="product_characteristics_page">
 
                         <group>
                             <group>

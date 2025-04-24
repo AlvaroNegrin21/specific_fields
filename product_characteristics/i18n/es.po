@@ -1,0 +1,229 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* product_characteristics
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-24 10:48+0000\n"
+"PO-Revision-Date: 2025-04-24 10:48+0000\n"
+"Last-Translator: Your Name <youremail@example.com>\n"
+"Language-Team: Spanish <your-language-team@example.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: product_characteristics
+#. odoo-python
+#: code:addons/product_characteristics/models/product_characteristics.py:0
+#: model:ir.model.fields,field_description:product_characteristics.field_product_product__collection
+#: model:ir.model.fields,field_description:product_characteristics.field_product_template__collection
+#, python-format
+msgid "Collection"
+msgstr "Colección"
+
+#. module: product_characteristics
+#. odoo-python
+#: code:addons/product_characteristics/models/product_characteristics.py:0
+#: model:ir.model.fields,field_description:product_characteristics.field_product_product__color
+#: model:ir.model.fields,field_description:product_characteristics.field_product_template__color
+#, python-format
+msgid "Color"
+msgstr "Color"
+
+#. module: product_characteristics
+#. odoo-python
+#: code:addons/product_characteristics/models/product_characteristics.py:0
+#: model:ir.model.fields,field_description:product_characteristics.field_product_product__color_code
+#: model:ir.model.fields,field_description:product_characteristics.field_product_template__color_code
+#, python-format
+msgid "Color Code"
+msgstr "Código de Color"
+
+#. module: product_characteristics
+#. odoo-python
+#: code:addons/product_characteristics/models/product_characteristics.py:0
+#: model:ir.model.fields,field_description:product_characteristics.field_product_product__comercial_measure
+#: model:ir.model.fields,field_description:product_characteristics.field_product_template__comercial_measure
+#, python-format
+msgid "Comercial Measure"
+msgstr "Medidas Comerciales"
+
+#. module: product_characteristics
+#. odoo-python
+#: code:addons/product_characteristics/models/product_characteristics.py:0
+#: model:ir.model.fields,field_description:product_characteristics.field_product_product__cost_kilo_to_weight_label
+#: model:ir.model.fields,field_description:product_characteristics.field_product_template__cost_kilo_to_weight_label
+#, python-format
+msgid "Cost Kilo to Weight Label"
+msgstr "Coste Kilo a Etiqueta de Peso"
+
+#. module: product_characteristics
+#: model:ir.model.fields,help:product_characteristics.field_product_product__opening_position
+#: model:ir.model.fields,help:product_characteristics.field_product_template__opening_position
+msgid "Describe the position of any openings on the product"
+msgstr "Describe la posición de cualquier apertura en el producto"
+
+#. module: product_characteristics
+#: model:ir.model.fields,help:product_characteristics.field_product_product__cost_kilo_to_weight_label
+#: model:ir.model.fields,help:product_characteristics.field_product_template__cost_kilo_to_weight_label
+msgid "Enter the cost per kilogram related to the weight label"
+msgstr "Introduzca el coste por kilogramo relacionado con la etiqueta de peso"
+
+#. module: product_characteristics
+#: model:ir.model.fields,help:product_characteristics.field_product_product__color_code
+#: model:ir.model.fields,help:product_characteristics.field_product_template__color_code
+msgid "Enter the internal or external code for the product's color"
+msgstr "Introduzca el código interno o externo del color del producto"
+
+#. module: product_characteristics
+#: model:ir.model.fields,help:product_characteristics.field_product_product__material_code
+#: model:ir.model.fields,help:product_characteristics.field_product_template__material_code
+msgid "Enter the internal or external code for the product's primary material"
+msgstr "Introduzca el código interno o externo de la materia prima principal del producto"
+
+#. module: product_characteristics
+#. odoo-python
+#: code:addons/product_characteristics/models/product_characteristics.py:0
+#: model:ir.model.fields,field_description:product_characteristics.field_product_product__grinding
+#: model:ir.model.fields,field_description:product_characteristics.field_product_template__grinding
+#, python-format
+msgid "Grinding"
+msgstr "Esmerilado"
+
+#. module: product_characteristics
+#: model:ir.model.fields,help:product_characteristics.field_product_product__raw_size
+#: model:ir.model.fields,help:product_characteristics.field_product_template__raw_size
+msgid ""
+"Indicate the dimensions or size of the product in its raw or unprocessed "
+"state"
+msgstr "Indique las dimensiones o el tamaño del producto en su estado bruto o sin procesar"
+
+#. module: product_characteristics
+#: model:ir.model.fields,help:product_characteristics.field_product_product__collection
+#: model:ir.model.fields,help:product_characteristics.field_product_template__collection
+msgid ""
+"Indicate the product's collection name (e.g., Summer 2024, Classic Line)"
+msgstr "Indique el nombre de la colección del producto (ej. Verano 2024, Línea Clásica)"
+
+#. module: product_characteristics
+#: model:ir.model.fields,help:product_characteristics.field_product_product__comercial_measure
+#: model:ir.model.fields,help:product_characteristics.field_product_template__comercial_measure
+msgid "Indicate the standard commercial unit or measure for this product"
+msgstr "Indique la unidad o medida comercial estándar para este producto"
+
+#. module: product_characteristics
+#. odoo-python
+#: code:addons/product_characteristics/models/product_characteristics.py:0
+#: model:ir.model.fields,field_description:product_characteristics.field_product_product__manufacturing_type
+#: model:ir.model.fields,field_description:product_characteristics.field_product_template__manufacturing_type
+#, python-format
+msgid "Manufacturing Types"
+msgstr "Tipo Fabricación"
+
+#. module: product_characteristics
+#. odoo-python
+#: code:addons/product_characteristics/models/product_characteristics.py:0
+#: model:ir.model.fields,field_description:product_characteristics.field_product_product__material
+#: model:ir.model.fields,field_description:product_characteristics.field_product_template__material
+#, python-format
+msgid "Material"
+msgstr "Materia"
+
+#. module: product_characteristics
+#. odoo-python
+#: code:addons/product_characteristics/models/product_characteristics.py:0
+#: model:ir.model.fields,field_description:product_characteristics.field_product_product__material_code
+#: model:ir.model.fields,field_description:product_characteristics.field_product_template__material_code
+#, python-format
+msgid "Material Code"
+msgstr "Código de Materia"
+
+#. module: product_characteristics
+#. odoo-python
+#: code:addons/product_characteristics/models/product_characteristics.py:0
+#: model:ir.model.fields,field_description:product_characteristics.field_product_product__opening_position
+#: model:ir.model.fields,field_description:product_characteristics.field_product_template__opening_position
+#, python-format
+msgid "Opening Position"
+msgstr "Posición Apertura"
+
+#. module: product_characteristics
+#. odoo-python
+#: code:addons/product_characteristics/models/product_characteristics.py:0
+#: model:ir.model.fields,field_description:product_characteristics.field_product_product__opening_size
+#: model:ir.model.fields,field_description:product_characteristics.field_product_template__opening_size
+#, python-format
+msgid "Opening Size"
+msgstr "Tamaño Apertura"
+
+#. module: product_characteristics
+#: model:ir.model,name:product_characteristics.model_product_template
+msgid "Product"
+msgstr "Producto"
+
+#. module: product_characteristics
+#: model_terms:ir.ui.view,arch_db:product_characteristics.view_product_template_form_product_characteristics
+msgid "Characteristics"
+msgstr "Caraterísticas"
+
+#. module: product_characteristics
+#: model:ir.model.fields,help:product_characteristics.field_product_product__color
+#: model:ir.model.fields,help:product_characteristics.field_product_template__color
+msgid ""
+"Provide a descriptive name for the product's color (e.g., Midnight Blue, "
+"Crimson Red)"
+msgstr "Proporcione un nombre descriptivo para el color del producto (ej. Azul Noche, Rojo Carmesí)"
+
+#. module: product_characteristics
+#: model:ir.model.fields,help:product_characteristics.field_product_product__material
+#: model:ir.model.fields,help:product_characteristics.field_product_template__material
+msgid ""
+"Provide a descriptive name for the product's primary material (e.g., Cotton,"
+" Steel, Plastic)"
+msgstr "Proporcione un nombre descriptivo para la materia prima principal del producto (ej. Algodón, Acero, Plástico)"
+
+#. module: product_characteristics
+#: model:ir.model.fields,help:product_characteristics.field_product_product__grinding
+#: model:ir.model.fields,help:product_characteristics.field_product_template__grinding
+msgid "Provide details about any grinding applied to the product"
+msgstr "Proporcione detalles sobre cualquier esmerilado aplicado al producto"
+
+#. module: product_characteristics
+#. odoo-python
+#: code:addons/product_characteristics/models/product_characteristics.py:0
+#: model:ir.model.fields,field_description:product_characteristics.field_product_product__raw_size
+#: model:ir.model.fields,field_description:product_characteristics.field_product_template__raw_size
+#, python-format
+msgid "Raw Size"
+msgstr "Tamaño Bruto"
+
+#. module: product_characteristics
+#: model:ir.model.fields,help:product_characteristics.field_product_product__weight_label
+#: model:ir.model.fields,help:product_characteristics.field_product_template__weight_label
+msgid ""
+"Specify the label or code related to the product's weight categorization"
+msgstr "Especifique la etiqueta o código relacionado con la categorización de peso del producto"
+
+#. module: product_characteristics
+#: model:ir.model.fields,help:product_characteristics.field_product_product__opening_size
+#: model:ir.model.fields,help:product_characteristics.field_product_template__opening_size
+msgid "Specify the size of any openings on the product"
+msgstr "Especifique el tamaño de cualquier apertura en el producto"
+
+#. module: product_characteristics
+#: model:ir.model.fields,help:product_characteristics.field_product_product__manufacturing_type
+#: model:ir.model.fields,help:product_characteristics.field_product_template__manufacturing_type
+msgid "Specify the type of manufacturing process used for this product"
+msgstr "Especifique el tipo de proceso de fabricación utilizado para este producto"
+
+#. module: product_characteristics
+#. odoo-python
+#: code:addons/product_characteristics/models/product_characteristics.py:0
+#: model:ir.model.fields,field_description:product_characteristics.field_product_product__weight_label
+#: model:ir.model.fields,field_description:product_characteristics.field_product_template__weight_label
+#, python-format
+msgid "Weight Label"
+msgstr "Etiqueta Peso"
