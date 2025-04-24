@@ -1,6 +1,6 @@
 {
     "name": "Product Characteristics Page",
-    "version": "17.0.0.1.0",
+    "version": "17.0.1.0.0",
     "summary": "Add a page to product module with a few new fields",
     "category": "Product/Product",
     "author": "Binhex",
