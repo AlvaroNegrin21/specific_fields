@@ -28,10 +28,8 @@ class ProductCharacteristics(models.Model):
         ),
     )
 
-    cost_kilo_to_weight_label = (
-        fields.Char(
-            help="Enter the cost per kilogram related to the weight label",
-        ),
+    cost_kilo_to_weight_label = fields.Char(
+        help="Enter the cost per kilogram related to the weight label",
     )
 
     material_code = fields.Char(
