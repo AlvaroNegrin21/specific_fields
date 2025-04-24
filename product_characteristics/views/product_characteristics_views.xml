@@ -1,7 +1,5 @@
 <odoo>
 
-    <data>
-
         <record id="view_product_template_form_product_characteristics" model="ir.ui.view" >
             <field name="name">product.template.form.inherit.product.characteristics</field>
             <field name="model">product.template</field>
@@ -36,8 +34,4 @@
             </field>
         </record>
 
-    </data>
-
 </odoo>
-
-<!-- Attributes &amp; Variants-->

@@ -1,10 +1,10 @@
-# -*- coding: utf-8 -*-
 {
     'name': 'Product Characteristics Page',
-    'version': '1.0',
+    'version': '17.0.1.0',
     'summary': 'Add a page to product module with a few new fields',
     'category': 'Product/Product',
     'author': 'Binhex',
+    'website': 'https://github.com/AlvaroNegrin21/specific_fields',
     'depends': [
         'base',
         'product',
@@ -17,4 +17,5 @@
     'installable': True,
     'application': False,
     'auto_install': False,
+    'license': 'LGPL-3'
 }
