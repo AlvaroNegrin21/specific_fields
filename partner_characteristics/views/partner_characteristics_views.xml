@@ -2,22 +2,22 @@
     <record id="res_partner_view_form_inherit_characteristics" model="ir.ui.view">
         <field name="name">res.partner.view.form.inherit.characteristics</field>
         <field name="model">res.partner</field>
-        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="inherit_id" ref="base.view_partner_form" />
         <field name="arch" type="xml">
 
             <xpath expr="//notebook" position="inside">
                 <page string="Characteristics">
                     <group>
                         <group>
-                            <field name="time_code"/>
-                            <field name="who_cuts"/>
-                            <field name="sector_code"/>
-                            <field name="subsector_code"/>
+                            <field name="time_code" />
+                            <field name="who_cuts" />
+                            <field name="sector_code" />
+                            <field name="subsector_code" />
                         </group>
                         <group>
-                            <field name="fabric_unit"/>
-                            <field name="truck_unit"/>
-                            <field name="channel_code"/>
+                            <field name="fabric_unit" />
+                            <field name="truck_unit" />
+                            <field name="channel_code" />
                         </group>
                     </group>
                 </page>
