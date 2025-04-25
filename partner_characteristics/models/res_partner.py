@@ -1,7 +1,7 @@
 from odoo import fields, models
 
 
-class PartnerCharacteristics(models.Model):
+class ResPartner(models.Model):
     _inherit = "res.partner"
 
     time_code = fields.Char(help="Specific code related to time or scheduling.")

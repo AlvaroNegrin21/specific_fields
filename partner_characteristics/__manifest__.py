@@ -6,7 +6,7 @@
     "author": "Binhex",
     "website": "https://github.com/AlvaroNegrin21/specific_fields",
     "depends": ["base", "product", "account"],
-    "data": ["security/ir.model.access.csv", "views/partner_characteristics_views.xml"],
+    "data": ["views/res_partner_views.xml"],
     "installable": True,
     "application": False,
     "auto_install": False,

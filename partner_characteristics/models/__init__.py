@@ -1,1 +1,1 @@
-from . import partner_characteristics
+from . import res_partner
