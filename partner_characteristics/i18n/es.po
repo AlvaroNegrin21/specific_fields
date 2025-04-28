@@ -1,13 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* res_partner
+# 	* partner_characteristics
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-25 08:42+0000\n"
-"PO-Revision-Date: 2025-04-25 08:42+0000\n"
+"POT-Creation-Date: 2025-04-28 11:18+0000\n"
+"PO-Revision-Date: 2025-04-28 11:18+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -16,99 +16,156 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
-#. module: res_partner
-#: model:ir.model.fields,field_description:res_partner.field_res_partner__channel_code
-#: model:ir.model.fields,field_description:res_partner.field_res_users__channel_code
+#. module: partner_characteristics
+#: model:ir.model.fields,field_description:partner_characteristics.field_res_partner__channel_code
+#: model:ir.model.fields,field_description:partner_characteristics.field_res_users__channel_code
 msgid "Channel Code"
 msgstr "Código Canal"
 
-#. module: res_partner
-#: model_terms:ir.ui.view,arch_db:res_partner.res_partner_view_form_inherit_characteristics
+#. module: partner_characteristics
+#: model_terms:ir.ui.view,arch_db:partner_characteristics.res_partner_view_form_inherit_characteristics
 msgid "Characteristics"
 msgstr "Características"
 
-#. module: res_partner
-#: model:ir.model.fields,help:res_partner.field_res_partner__sector_code
-#: model:ir.model.fields,help:res_partner.field_res_users__sector_code
+#. module: partner_characteristics
+#: model_terms:ir.ui.view,arch_db:partner_characteristics.res_partner_view_form_inherit_characteristics
+msgid "Sector & Channel"
+msgstr "Sector y Canal"
+
+#. module: partner_characteristics
+#: model:ir.model.fields,help:partner_characteristics.field_res_partner__sector_code
+#: model:ir.model.fields,help:partner_characteristics.field_res_users__sector_code
 msgid "Code identifying the business sector or industry of the contact."
 msgstr "Código que identifica el sector de negocio o industria del contacto."
 
-#. module: res_partner
-#: model:ir.model.fields,help:res_partner.field_res_partner__subsector_code
-#: model:ir.model.fields,help:res_partner.field_res_users__subsector_code
+#. module: partner_characteristics
+#: model:ir.model.fields,help:partner_characteristics.field_res_partner__subsector_code
+#: model:ir.model.fields,help:partner_characteristics.field_res_users__subsector_code
 msgid "Code identifying the specific subsector within the main sector."
 msgstr "Código que identifica el subsector específico dentro del sector principal."
 
-#. module: res_partner
-#: model:ir.model.fields,help:res_partner.field_res_partner__channel_code
-#: model:ir.model.fields,help:res_partner.field_res_users__channel_code
+#. module: partner_characteristics
+#: model:ir.model.fields,help:partner_characteristics.field_res_partner__future_potential_code
+#: model:ir.model.fields,help:partner_characteristics.field_res_users__future_potential_code
+msgid "Code indicating the future potential of the partner."
+msgstr "Código que indica el potencial futuro del contacto."
+
+#. module: partner_characteristics
+#: model:ir.model.fields,help:partner_characteristics.field_res_partner__commercial_potential_code
+#: model:ir.model.fields,help:partner_characteristics.field_res_users__commercial_potential_code
+msgid "Code indicating the potential of the partner in commercial terms."
+msgstr "Código que indica el potencial del contacto en términos comerciales."
+
+#. module: partner_characteristics
+#: model:ir.model.fields,help:partner_characteristics.field_res_partner__commercial_potential_direction_code
+#: model:ir.model.fields,help:partner_characteristics.field_res_users__commercial_potential_direction_code
+msgid ""
+"Code indicating the potential related to commercial management or direction."
+msgstr "Código que indica el potencial relacionado con la gestión o dirección comercial."
+
+#. module: partner_characteristics
+#: model:ir.model.fields,help:partner_characteristics.field_res_partner__channel_code
+#: model:ir.model.fields,help:partner_characteristics.field_res_users__channel_code
 msgid ""
 "Code indicating the sales or distribution channel used for this contact."
 msgstr "Código que indica el canal de ventas o distribución utilizado para este contacto."
 
-#. module: res_partner
-#: model:ir.model,name:res_partner.model_res_partner
+#. module: partner_characteristics
+#: model:ir.model.fields,field_description:partner_characteristics.field_res_partner__commercial_potential_code
+#: model:ir.model.fields,field_description:partner_characteristics.field_res_users__commercial_potential_code
+msgid "Commercial Potential Code"
+msgstr "Código Potencial Comercial"
+
+#. module: partner_characteristics
+#: model:ir.model.fields,field_description:partner_characteristics.field_res_partner__commercial_potential_direction_code
+#: model:ir.model.fields,field_description:partner_characteristics.field_res_users__commercial_potential_direction_code
+msgid "Commercial Potential Direction Code"
+msgstr "Código Potencial Dirección Comercial"
+
+#. module: partner_characteristics
+#: model:ir.model,name:partner_characteristics.model_res_partner
 msgid "Contact"
 msgstr "Contacto"
 
-#. module: res_partner
-#: model:ir.model.fields,field_description:res_partner.field_res_partner__who_cuts
-#: model:ir.model.fields,field_description:res_partner.field_res_users__who_cuts
+#. module: partner_characteristics
+#: model:ir.model.fields,field_description:partner_characteristics.field_res_partner__who_cuts
+#: model:ir.model.fields,field_description:partner_characteristics.field_res_users__who_cuts
 msgid "Cutter/Responsible"
 msgstr "Cortador/Responsable"
 
-#. module: res_partner
-#: model:ir.model.fields,field_description:res_partner.field_res_partner__fabric_unit
-#: model:ir.model.fields,field_description:res_partner.field_res_users__fabric_unit
+#. module: partner_characteristics
+#: model:ir.model.fields,field_description:partner_characteristics.field_res_partner__fabric_unit
+#: model:ir.model.fields,field_description:partner_characteristics.field_res_users__fabric_unit
 msgid "Fabric Unit"
 msgstr "Unidad de Fábrica"
 
-#. module: res_partner
-#: model:ir.model.fields,help:res_partner.field_res_partner__fabric_unit
-#: model:ir.model.fields,help:res_partner.field_res_users__fabric_unit
+#. module: partner_characteristics
+#: model:ir.model.fields,field_description:partner_characteristics.field_res_partner__future_potential_code
+#: model:ir.model.fields,field_description:partner_characteristics.field_res_users__future_potential_code
+msgid "Future Potential Code"
+msgstr "Código Potencial Futuro"
+
+#. module: partner_characteristics
+#: model_terms:ir.ui.view,arch_db:partner_characteristics.res_partner_view_form_inherit_characteristics
+msgid "General Information"
+msgstr "Información General"
+
+#. module: partner_characteristics
+#: model:ir.model.fields,help:partner_characteristics.field_res_partner__fabric_unit
+#: model:ir.model.fields,help:partner_characteristics.field_res_users__fabric_unit
 msgid "Identifier for the factory unit associated with the contact."
 msgstr "Identificador de la unidad de fábrica asociada al contacto."
 
-#. module: res_partner
-#: model:ir.model.fields,help:res_partner.field_res_partner__truck_unit
-#: model:ir.model.fields,help:res_partner.field_res_users__truck_unit
+#. module: partner_characteristics
+#: model:ir.model.fields,help:partner_characteristics.field_res_partner__truck_unit
+#: model:ir.model.fields,help:partner_characteristics.field_res_users__truck_unit
 msgid ""
 "Identifier for the truck or transport unit associated with the contact."
 msgstr "Identificador de la unidad de camión o transporte asociada al contacto."
 
-#. module: res_partner
-#: model:ir.model.fields,help:res_partner.field_res_partner__who_cuts
-#: model:ir.model.fields,help:res_partner.field_res_users__who_cuts
+#. module: partner_characteristics
+#: model:ir.model.fields,help:partner_characteristics.field_res_partner__who_cuts
+#: model:ir.model.fields,help:partner_characteristics.field_res_users__who_cuts
 msgid ""
 "Indicates who is responsible for a specific cutting process or decision."
 msgstr "Indica quién es responsable de un proceso de corte o decisión específica."
 
-#. module: res_partner
-#: model:ir.model.fields,field_description:res_partner.field_res_partner__sector_code
-#: model:ir.model.fields,field_description:res_partner.field_res_users__sector_code
+#. module: partner_characteristics
+#: model_terms:ir.ui.view,arch_db:partner_characteristics.res_partner_view_form_inherit_characteristics
+msgid "Potential Codes"
+msgstr "Códigos de Potencial"
+
+#. module: partner_characteristics
+#: model:ir.model.fields,field_description:partner_characteristics.field_res_partner__sector_code
+#: model:ir.model.fields,field_description:partner_characteristics.field_res_users__sector_code
 msgid "Sector Code"
 msgstr "Código Sector"
 
-#. module: res_partner
-#: model:ir.model.fields,help:res_partner.field_res_partner__time_code
-#: model:ir.model.fields,help:res_partner.field_res_users__time_code
+#. module: partner_characteristics
+#: model:ir.model.fields,help:partner_characteristics.field_res_partner__time_code
+#: model:ir.model.fields,help:partner_characteristics.field_res_users__time_code
 msgid "Specific code related to time or scheduling."
 msgstr "Código específico relacionado con el tiempo o la programación."
 
-#. module: res_partner
-#: model:ir.model.fields,field_description:res_partner.field_res_partner__subsector_code
-#: model:ir.model.fields,field_description:res_partner.field_res_users__subsector_code
+#. module: partner_characteristics
+#: model:ir.model.fields,field_description:partner_characteristics.field_res_partner__subsector_code
+#: model:ir.model.fields,field_description:partner_characteristics.field_res_users__subsector_code
 msgid "Subsector Code"
 msgstr "Código Subsector"
 
-#. module: res_partner
-#: model:ir.model.fields,field_description:res_partner.field_res_partner__time_code
-#: model:ir.model.fields,field_description:res_partner.field_res_users__time_code
+#. module: partner_characteristics
+#: model:ir.model.fields,field_description:partner_characteristics.field_res_partner__time_code
+#: model:ir.model.fields,field_description:partner_characteristics.field_res_users__time_code
 msgid "Time Code"
 msgstr "Código Tiempo"
 
-#. module: res_partner
-#: model:ir.model.fields,field_description:res_partner.field_res_partner__truck_unit
-#: model:ir.model.fields,field_description:res_partner.field_res_users__truck_unit
+#. module: partner_characteristics
+#: model:ir.model.fields,field_description:partner_characteristics.field_res_partner__truck_unit
+#: model:ir.model.fields,field_description:partner_characteristics.field_res_users__truck_unit
 msgid "Truck Unit"
 msgstr "Unidad Camión"
+
+#. module: partner_characteristics
+#: model_terms:ir.ui.view,arch_db:partner_characteristics.res_partner_view_form_inherit_characteristics
+msgid "Unit Identifiers"
+msgstr "Identificadores de Unidad"

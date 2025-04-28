@@ -38,3 +38,18 @@ class ResPartner(models.Model):
             "channel used for this contact."
         )
     )
+
+    commercial_potential_code = fields.Char(
+        help="Code indicating the potential of the partner in commercial terms."
+    )
+
+    commercial_potential_direction_code = fields.Char(
+        help=(
+            "Code indicating the potential related to "
+            "commercial management or direction."
+        )
+    )
+
+    future_potential_code = fields.Char(
+        help="Code indicating the future potential of the partner."
+    )

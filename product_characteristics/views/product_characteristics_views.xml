@@ -1,42 +1,36 @@
 <odoo>
-
-        <record
-        id="view_product_template_form_product_characteristics"
-        model="ir.ui.view"
-    >
-            <field name="name">
-                product.template.form.inherit.product.characteristics
-            </field>
-            <field name="model">product.template</field>
-            <field name="inherit_id" ref="product.product_template_form_view" />
-            <field name="arch" type="xml">
-                <xpath expr="//notebook/page[@name='sales']" position="after">
-                    <page string="Characteristics" name="product_characteristics_page">
-
-                        <group>
-                            <group>
-                                <field name="collection" />
-                                <field name="weight_label" />
-                                <field name="color_code" />
-                                <field name="color" />
-                                <field name="cost_kilo_to_weight_label" />
-                                <field name="material_code" />
-                                <field name="material" />
-                            </group>
-                            <group>
-                                <field name="manufacturing_type" />
-                                <field name="comercial_measure" />
-                                <field name="opening_position" />
-                                <field name="opening_size" />
-                                <field name="raw_size" />
-                                <field name="grinding" />
-                            </group>
+    <record id="view_product_template_form_product_characteristics" model="ir.ui.view">
+        <field name="name">
+            product.template.form.inherit.product.characteristics
+        </field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_form_view" />
+        <field name="arch" type="xml">
+            <xpath expr="//notebook/page[@name='sales']" position="after">
+                <page string="Characteristics" name="product_characteristics_page">
+                    <group>
+                        <group string="Material &amp; Appearance">
+                            <field name="collection" />
+                            <field name="color_code" />
+                            <field name="color" />
+                            <field name="material_code" />
+                            <field name="material" />
+                            <field name="weight_label" />
+                            <field name="cost_kilo_to_weight_label" />
                         </group>
 
-                    </page>
+                        <group string="Manufacturing &amp; Dimensions">
+                            <field name="manufacturing_type" />
+                            <field name="grinding" />
+                            <field name="comercial_measure" />
+                            <field name="opening_position" />
+                            <field name="opening_size" />
+                            <field name="raw_size" />
+                        </group>
 
-                </xpath>
-            </field>
-        </record>
-
+                    </group>
+                </page>
+            </xpath>
+        </field>
+    </record>
 </odoo>
