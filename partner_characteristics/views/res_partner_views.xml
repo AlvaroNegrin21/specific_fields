@@ -8,16 +8,23 @@
             <xpath expr="//notebook" position="inside">
                 <page string="Characteristics">
                     <group>
-                        <group>
+                        <group string="General Information">
                             <field name="time_code" />
                             <field name="who_cuts" />
+                        </group>
+                        <group string="Sector &amp; Channel">
                             <field name="sector_code" />
                             <field name="subsector_code" />
+                            <field name="channel_code" />
                         </group>
-                        <group>
+                        <group string="Unit Identifiers">
                             <field name="fabric_unit" />
                             <field name="truck_unit" />
-                            <field name="channel_code" />
+                        </group>
+                        <group string="Potential Codes">
+                            <field name="commercial_potential_code" />
+                            <field name="commercial_potential_direction_code" />
+                            <field name="future_potential_code" />
                         </group>
                     </group>
                 </page>

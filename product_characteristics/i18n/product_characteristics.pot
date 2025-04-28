@@ -98,6 +98,19 @@ msgstr ""
 msgid "Indicate the standard commercial unit or measure for this product"
 msgstr ""
 
+# --- New group titles added in the XML view ---
+#. module: product_characteristics
+#: model_terms:ir.ui.view,arch_db:product_characteristics.view_product_template_form_product_characteristics
+msgid "Manufacturing & Dimensions"
+msgstr ""
+
+#. module: product_characteristics
+#: model_terms:ir.ui.view,arch_db:product_characteristics.view_product_template_form_product_characteristics
+msgid "Material & Appearance"
+msgstr ""
+# --- End new group titles ---
+
+
 #. module: product_characteristics
 #: model:ir.model.fields,field_description:product_characteristics.field_product_product__manufacturing_type
 #: model:ir.model.fields,field_description:product_characteristics.field_product_template__manufacturing_type
@@ -136,17 +149,13 @@ msgstr ""
 #. module: product_characteristics
 #: model:ir.model.fields,help:product_characteristics.field_product_product__color
 #: model:ir.model.fields,help:product_characteristics.field_product_template__color
-msgid ""
-"Provide a descriptive name for the product's color (e.g., Midnight Blue, "
-"Crimson Red)"
+msgid "Provide a descriptive name for the product's color (e.g., Midnight Blue, Crimson Red)"
 msgstr ""
 
 #. module: product_characteristics
 #: model:ir.model.fields,help:product_characteristics.field_product_product__material
 #: model:ir.model.fields,help:product_characteristics.field_product_template__material
-msgid ""
-"Provide a descriptive name for the product's primary material (e.g., Cotton,"
-" Steel, Plastic)"
+msgid "Provide a descriptive name for the product's primary material (e.g., Cotton, Steel, Plastic)"
 msgstr ""
 
 #. module: product_characteristics
@@ -164,8 +173,7 @@ msgstr ""
 #. module: product_characteristics
 #: model:ir.model.fields,help:product_characteristics.field_product_product__weight_label
 #: model:ir.model.fields,help:product_characteristics.field_product_template__weight_label
-msgid ""
-"Specify the label or code related to the product's weight categorization"
+msgid "Specify the label or code related to the product's weight categorization"
 msgstr ""
 
 #. module: product_characteristics

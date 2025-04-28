@@ -24,6 +24,29 @@ msgstr ""
 msgid "Characteristics"
 msgstr ""
 
+# --- New group titles added in the XML view ---
+#. module: partner_characteristics
+#: model_terms:ir.ui.view,arch_db:partner_characteristics.res_partner_view_form_inherit_characteristics
+msgid "Sector & Channel"
+msgstr ""
+
+#. module: partner_characteristics
+#: model_terms:ir.ui.view,arch_db:partner_characteristics.res_partner_view_form_inherit_characteristics
+msgid "General Information"
+msgstr ""
+
+#. module: partner_characteristics
+#: model_terms:ir.ui.view,arch_db:partner_characteristics.res_partner_view_form_inherit_characteristics
+msgid "Potential Codes"
+msgstr ""
+
+#. module: partner_characteristics
+#: model_terms:ir.ui.view,arch_db:partner_characteristics.res_partner_view_form_inherit_characteristics
+msgid "Unit Identifiers"
+msgstr ""
+# --- End new group titles ---
+
+
 #. module: partner_characteristics
 #: model:ir.model.fields,help:partner_characteristics.field_res_partner__sector_code
 #: model:ir.model.fields,help:partner_characteristics.field_res_users__sector_code
@@ -36,12 +59,53 @@ msgstr ""
 msgid "Code identifying the specific subsector within the main sector."
 msgstr ""
 
+# --- New field help texts from Python code ---
+#. module: partner_characteristics
+#: model:ir.model.fields,help:partner_characteristics.field_res_partner__future_potential_code
+#: model:ir.model.fields,help:partner_characteristics.field_res_users__future_potential_code
+msgid "Code indicating the future potential of the partner."
+msgstr ""
+
+#. module: partner_characteristics
+#: model:ir.model.fields,help:partner_characteristics.field_res_partner__commercial_potential_code
+#: model:ir.model.fields,help:partner_characteristics.field_res_users__commercial_potential_code
+msgid "Code indicating the potential of the partner in commercial terms."
+msgstr ""
+
+#. module: partner_characteristics
+#: model:ir.model.fields,help:partner_characteristics.field_res_partner__commercial_potential_direction_code
+#: model:ir.model.fields,help:partner_characteristics.field_res_users__commercial_potential_direction_code
+msgid "Code indicating the potential related to commercial management or direction."
+msgstr ""
+# --- End new field help texts ---
+
+
 #. module: partner_characteristics
 #: model:ir.model.fields,help:partner_characteristics.field_res_partner__channel_code
 #: model:ir.model.fields,help:partner_characteristics.field_res_users__channel_code
-msgid ""
-"Code indicating the sales or distribution channel used for this contact."
+msgid "Code indicating the sales or distribution channel used for this contact."
 msgstr ""
+
+# --- New field labels (string attribute) from Python code ---
+#. module: partner_characteristics
+#: model:ir.model.fields,field_description:partner_characteristics.field_res_partner__commercial_potential_code
+#: model:ir.model.fields,field_description:partner_characteristics.field_res_users__commercial_potential_code
+msgid "Commercial Potential Code"
+msgstr ""
+
+#. module: partner_characteristics
+#: model:ir.model.fields,field_description:partner_characteristics.field_res_partner__commercial_potential_direction_code
+#: model:ir.model.fields,field_description:partner_characteristics.field_res_users__commercial_potential_direction_code
+msgid "Commercial Potential Direction Code"
+msgstr ""
+
+#. module: partner_characteristics
+#: model:ir.model.fields,field_description:partner_characteristics.field_res_partner__future_potential_code
+#: model:ir.model.fields,field_description:partner_characteristics.field_res_users__future_potential_code
+msgid "Future Potential Code"
+msgstr ""
+# --- End new field labels ---
+
 
 #. module: partner_characteristics
 #: model:ir.model,name:partner_characteristics.model_res_partner
@@ -69,15 +133,13 @@ msgstr ""
 #. module: partner_characteristics
 #: model:ir.model.fields,help:partner_characteristics.field_res_partner__truck_unit
 #: model:ir.model.fields,help:partner_characteristics.field_res_users__truck_unit
-msgid ""
-"Identifier for the truck or transport unit associated with the contact."
+msgid "Identifier for the truck or transport unit associated with the contact."
 msgstr ""
 
 #. module: partner_characteristics
 #: model:ir.model.fields,help:partner_characteristics.field_res_partner__who_cuts
 #: model:ir.model.fields,help:partner_characteristics.field_res_users__who_cuts
-msgid ""
-"Indicates who is responsible for a specific cutting process or decision."
+msgid "Indicates who is responsible for a specific cutting process or decision."
 msgstr ""
 
 #. module: partner_characteristics
