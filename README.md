@@ -9,7 +9,7 @@
 
 # Specific fields for product module
 
-Odoo module dedicated to add a pages with more fields to the product module 
+Odoo module dedicated to add a pages with more fields to the product and partner modules
 
 <!-- /!\ do not modify below this line -->
 
@@ -17,7 +17,12 @@ Odoo module dedicated to add a pages with more fields to the product module
 
 [//]: # (addons)
 
-This part will be replaced when running the oca-gen-addons-table script from OCA/maintainer-tools.
+Available addons
+----------------
+addon | version | maintainers | summary
+--- | --- | --- | ---
+[partner_characteristics](partner_characteristics/) | 17.0.1.0.0 |  | Add a page to contact module with a few new fields
+[product_characteristics](product_characteristics/) | 17.0.1.0.0 |  | Add a page to product module with a few new fields
 
 [//]: # (end addons)
 
