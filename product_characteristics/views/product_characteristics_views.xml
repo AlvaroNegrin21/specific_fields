@@ -9,39 +9,39 @@
             <xpath expr="//notebook/page[@name='invoicing']" position="after">
                 <page string="Characteristics" name="product_characteristics_page">
                     <group>
-                        <field name="cod_categoria"/>
+                        <field name="cod_categoria" />
                     </group>
                     <group>
                         <group name="left_column_char">
                             <field name="collection" />
                             <label for="weight_label" />
-                            <div class="o_row" >
-                                <field name="weight_label" nolabel="1"/>
-                                <group>
-                                    <label for="real_weight"/>
-                                </group>
-                                <field name="real_weight" nolabel="1"  />
-                            </div>
-                            <label for="color_code"/>
                             <div class="o_row">
-                                <field name="color_code" nolabel="1"/>
+                                <field name="weight_label" nolabel="1" />
                                 <group>
-                                    <label for="color"/>
+                                    <label for="real_weight" />
                                 </group>
-                                <field name="color" nolabel="1"/>
+                                <field name="real_weight" nolabel="1" />
+                            </div>
+                            <label for="color_code" />
+                            <div class="o_row">
+                                <field name="color_code" nolabel="1" />
+                                <group>
+                                    <label for="color" />
+                                </group>
+                                <field name="color" nolabel="1" />
                             </div>
                             <field name="width_in_millimeters" />
                             <field name="length_in_meters" />
                             <field name="cost_kilo_to_weight_label" />
                         </group>
                         <group name="right_column_char">
-                            <label for="material_code"/>
+                            <label for="material_code" />
                             <div class="o_row">
-                                <field name="material_code" nolabel="1"/>
+                                <field name="material_code" nolabel="1" />
                                 <group>
-                                    <label for="material"/>
+                                    <label for="material" />
                                 </group>
-                                <field name="material" nolabel="1"/>
+                                <field name="material" nolabel="1" />
                             </div>
                             <field name="manufacturing_type" />
                             <field name="comercial_measure" />

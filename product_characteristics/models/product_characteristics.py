@@ -19,8 +19,7 @@ class ProductCharacteristics(models.Model):
 
     real_weight = fields.Char(
         help=(
-            "Provide the actual weight of the product "
-            "(e.g., 1.5 kg, 500 g, 2.3 lbs)"
+            "Provide the actual weight of the product " "(e.g., 1.5 kg, 500 g, 2.3 lbs)"
         ),
     )
 
@@ -90,4 +89,3 @@ class ProductCharacteristics(models.Model):
     width_in_millimeters = fields.Char(
         help="Specify the width of the product in millimeters",
     )
-
