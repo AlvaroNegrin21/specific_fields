@@ -14,13 +14,14 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: product_characteristics
-#: model:ir.model.fields,field_description:product_characteristics.field_product_template__cod_categoria
-msgid "Category Code"
+#: model_terms:ir.ui.view,arch_db:product_characteristics.view_product_template_form_product_characteristics
+msgid "Characteristics"
 msgstr ""
 
 #. module: product_characteristics
-#: model_terms:ir.ui.view,arch_db:product_characteristics.view_product_template_form_product_characteristics
-msgid "Characteristics"
+#: model:ir.model.fields,field_description:product_characteristics.field_product_product__cod_categoria
+#: model:ir.model.fields,field_description:product_characteristics.field_product_template__cod_categoria
+msgid "Cod Categoria"
 msgstr ""
 
 #. module: product_characteristics
@@ -66,6 +67,7 @@ msgid "Enter the cost per kilogram related to the weight label"
 msgstr ""
 
 #. module: product_characteristics
+#: model:ir.model.fields,help:product_characteristics.field_product_product__cod_categoria
 #: model:ir.model.fields,help:product_characteristics.field_product_template__cod_categoria
 msgid "Enter the internal or external code for the product's category"
 msgstr ""
@@ -91,7 +93,9 @@ msgstr ""
 #. module: product_characteristics
 #: model:ir.model.fields,help:product_characteristics.field_product_product__raw_size
 #: model:ir.model.fields,help:product_characteristics.field_product_template__raw_size
-msgid "Indicate the dimensions or size of the product in its raw or unprocessed state"
+msgid ""
+"Indicate the dimensions or size of the product in its raw or unprocessed "
+"state"
 msgstr ""
 
 #. module: product_characteristics
@@ -107,8 +111,9 @@ msgid "Indicate the standard commercial unit or measure for this product"
 msgstr ""
 
 #. module: product_characteristics
+#: model:ir.model.fields,field_description:product_characteristics.field_product_product__length_in_meters
 #: model:ir.model.fields,field_description:product_characteristics.field_product_template__length_in_meters
-msgid "Length in Meters"
+msgid "Length In Meters"
 msgstr ""
 
 #. module: product_characteristics
@@ -121,11 +126,6 @@ msgstr ""
 #: model:ir.model.fields,field_description:product_characteristics.field_product_product__material
 #: model:ir.model.fields,field_description:product_characteristics.field_product_template__material
 msgid "Material"
-msgstr ""
-
-#. module: product_characteristics
-#: model_terms:ir.ui.view,arch_db:product_characteristics.view_product_template_form_product_characteristics
-msgid "Material & Appearance"
 msgstr ""
 
 #. module: product_characteristics
@@ -174,14 +174,22 @@ msgid "Provide details about any grinding applied to the product"
 msgstr ""
 
 #. module: product_characteristics
+#: model:ir.model.fields,help:product_characteristics.field_product_product__real_weight
 #: model:ir.model.fields,help:product_characteristics.field_product_template__real_weight
-msgid "Provide the actual weight of the product (e.g., 1.5 kg, 500 g, 2.3 lbs)"
+msgid ""
+"Provide the actual weight of the product (e.g., 1.5 kg, 500 g, 2.3 lbs)"
 msgstr ""
 
 #. module: product_characteristics
 #: model:ir.model.fields,field_description:product_characteristics.field_product_product__raw_size
 #: model:ir.model.fields,field_description:product_characteristics.field_product_template__raw_size
 msgid "Raw Size"
+msgstr ""
+
+#. module: product_characteristics
+#: model:ir.model.fields,field_description:product_characteristics.field_product_product__real_weight
+#: model:ir.model.fields,field_description:product_characteristics.field_product_template__real_weight
+msgid "Real Weight"
 msgstr ""
 
 #. module: product_characteristics
@@ -192,6 +200,7 @@ msgid ""
 msgstr ""
 
 #. module: product_characteristics
+#: model:ir.model.fields,help:product_characteristics.field_product_product__length_in_meters
 #: model:ir.model.fields,help:product_characteristics.field_product_template__length_in_meters
 msgid "Specify the length of the product in meters"
 msgstr ""
@@ -209,13 +218,9 @@ msgid "Specify the type of manufacturing process used for this product"
 msgstr ""
 
 #. module: product_characteristics
+#: model:ir.model.fields,help:product_characteristics.field_product_product__width_in_millimeters
 #: model:ir.model.fields,help:product_characteristics.field_product_template__width_in_millimeters
 msgid "Specify the width of the product in millimeters"
-msgstr ""
-
-#. module: product_characteristics
-#: model:ir.model.fields,field_description:product_characteristics.field_product_template__real_weight
-msgid "Real Weight"
 msgstr ""
 
 #. module: product_characteristics
@@ -225,6 +230,7 @@ msgid "Weight Label"
 msgstr ""
 
 #. module: product_characteristics
+#: model:ir.model.fields,field_description:product_characteristics.field_product_product__width_in_millimeters
 #: model:ir.model.fields,field_description:product_characteristics.field_product_template__width_in_millimeters
-msgid "Width in Millimeters"
+msgid "Width In Millimeters"
 msgstr ""
