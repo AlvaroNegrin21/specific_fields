@@ -17,6 +17,13 @@ class ProductCharacteristics(models.Model):
         ),
     )
 
+    real_weight = fields.Char(
+        help=(
+            "Provide the actual weight of the product "
+            "(e.g., 1.5 kg, 500 g, 2.3 lbs)"
+        ),
+    )
+
     color_code = fields.Char(
         help="Enter the internal or external code for the product's color",
     )
@@ -71,3 +78,16 @@ class ProductCharacteristics(models.Model):
     grinding = fields.Char(
         help="Provide details about any grinding applied to the product",
     )
+
+    cod_categoria = fields.Char(
+        help="Enter the internal or external code for the product's category",
+    )
+
+    length_in_meters = fields.Char(
+        help="Specify the length of the product in meters",
+    )
+
+    width_in_millimeters = fields.Char(
+        help="Specify the width of the product in millimeters",
+    )
+
