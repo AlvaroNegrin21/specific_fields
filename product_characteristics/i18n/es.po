@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-28 11:21+0000\n"
-"PO-Revision-Date: 2025-04-28 11:40+0000\n"
+"PO-Revision-Date: 2025-04-28 12:30+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -37,7 +37,7 @@ msgstr "Color"
 #: model:ir.model.fields,field_description:product_characteristics.field_product_product__color_code
 #: model:ir.model.fields,field_description:product_characteristics.field_product_template__color_code
 msgid "Color Code"
-msgstr "Código de Color"
+msgstr "Cod.Color"
 
 #. module: product_characteristics
 #: model:ir.model.fields,field_description:product_characteristics.field_product_product__comercial_measure
@@ -48,8 +48,8 @@ msgstr "Medidas Comerciales"
 #. module: product_characteristics
 #: model:ir.model.fields,field_description:product_characteristics.field_product_product__cost_kilo_to_weight_label
 #: model:ir.model.fields,field_description:product_characteristics.field_product_template__cost_kilo_to_weight_label
-msgid "Cost Kilo to Weight Label"
-msgstr "Coste Kilo a Etiqueta de Peso"
+msgid "Cost Kilo To Weight Label"
+msgstr "Coste Kilo a PesoLabel"
 
 #. module: product_characteristics
 #: model:ir.model.fields,help:product_characteristics.field_product_product__opening_position
@@ -65,7 +65,7 @@ msgstr "Introduzca el coste por kilogramo relacionado con la etiqueta de peso"
 
 #. module: product_characteristics
 #: model:ir.model.fields,help:product_characteristics.field_product_product__color_code
-#: model:ir.model.fields,help:product_characteristics.field_product_template__color_code
+#: model:ir.model.fields,help:product_characteristics.field_product_product__color_code
 msgid "Enter the internal or external code for the product's color"
 msgstr "Introduzca el código interno o externo del color del producto"
 
@@ -100,20 +100,10 @@ msgid "Indicate the standard commercial unit or measure for this product"
 msgstr "Indique la unidad o medida comercial estándar para este producto"
 
 #. module: product_characteristics
-#: model_terms:ir.ui.view,arch_db:product_characteristics.view_product_template_form_product_characteristics
-msgid "Manufacturing & Dimensions"
-msgstr "Fabricación y Dimensiones"
-
-#. module: product_characteristics
 #: model:ir.model.fields,field_description:product_characteristics.field_product_product__manufacturing_type
 #: model:ir.model.fields,field_description:product_characteristics.field_product_template__manufacturing_type
-msgid "Manufacturing Types"
+msgid "Manufacturing Type"
 msgstr "Tipo Fabricación"
-
-#. module: product_characteristics
-#: model_terms:ir.ui.view,arch_db:product_characteristics.view_product_template_form_product_characteristics
-msgid "Material & Appearance"
-msgstr "Material y Apariencia"
 
 #. module: product_characteristics
 #: model:ir.model.fields,field_description:product_characteristics.field_product_product__material
@@ -125,19 +115,19 @@ msgstr "Materia"
 #: model:ir.model.fields,field_description:product_characteristics.field_product_product__material_code
 #: model:ir.model.fields,field_description:product_characteristics.field_product_template__material_code
 msgid "Material Code"
-msgstr "Código de Materia"
+msgstr "Cod.Materia"
 
 #. module: product_characteristics
 #: model:ir.model.fields,field_description:product_characteristics.field_product_product__opening_position
 #: model:ir.model.fields,field_description:product_characteristics.field_product_template__opening_position
 msgid "Opening Position"
-msgstr "Posición Apertura"
+msgstr "Apertura Posición"
 
 #. module: product_characteristics
 #: model:ir.model.fields,field_description:product_characteristics.field_product_product__opening_size
 #: model:ir.model.fields,field_description:product_characteristics.field_product_template__opening_size
 msgid "Opening Size"
-msgstr "Tamaño Apertura"
+msgstr "Apertura Tamaño"
 
 #. module: product_characteristics
 #: model:ir.model,name:product_characteristics.model_product_template
@@ -169,12 +159,6 @@ msgid "Raw Size"
 msgstr "Tamaño Bruto"
 
 #. module: product_characteristics
-#: model:ir.model.fields,help:product_characteristics.field_product_product__weight_label
-#: model:ir.model.fields,help:product_characteristics.field_product_template__weight_label
-msgid "Specify the label or code related to the product's weight categorization"
-msgstr "Especifique la etiqueta o código relacionado con la categorización de peso del producto"
-
-#. module: product_characteristics
 #: model:ir.model.fields,help:product_characteristics.field_product_product__opening_size
 #: model:ir.model.fields,help:product_characteristics.field_product_template__opening_size
 msgid "Specify the size of any openings on the product"
@@ -190,4 +174,49 @@ msgstr "Especifique el tipo de proceso de fabricación utilizado para este produ
 #: model:ir.model.fields,field_description:product_characteristics.field_product_product__weight_label
 #: model:ir.model.fields,field_description:product_characteristics.field_product_template__weight_label
 msgid "Weight Label"
-msgstr "Etiqueta Peso"
+msgstr "PesoLabel"
+
+#. module: product_characteristics
+#: model:ir.model.fields,field_description:product_characteristics.field_product_template__cod_categoria
+msgid "Category Code"
+msgstr "Cod.Categoría"
+
+#. module: product_characteristics
+#: model:ir.model.fields,field_description:product_characteristics.field_product_template__real_weight
+msgid "Real Weight"
+msgstr "PesoReal"
+
+#. module: product_characteristics
+#: model:ir.model.fields,field_description:product_characteristics.field_product_template__width_in_millimeters
+msgid "Width in Millimeters"
+msgstr "Ancho en Milímetros"
+
+#. module: product_characteristics
+#: model:ir.model.fields,field_description:product_characteristics.field_product_template__length_in_meters
+msgid "Length in Meters"
+msgstr "Largo en Metros"
+
+#. module: product_characteristics
+#: model:ir.model.fields,help:product_characteristics.field_product_template__cod_categoria
+msgid "Enter the internal or external code for the product's category"
+msgstr "Introduzca el código interno o externo de la categoría del producto"
+
+#. module: product_characteristics
+#: model:ir.model.fields,help:product_characteristics.field_product_template__weight_label
+msgid "Specify the label or code related to the product's weight categorization"
+msgstr "Especifique la etiqueta o código relacionado con la categorización de peso del producto"
+
+#. module: product_characteristics
+#: model:ir.model.fields,help:product_characteristics.field_product_template__real_weight
+msgid "Provide the actual weight of the product (e.g., 1.5 kg, 500 g, 2.3 lbs)"
+msgstr "Proporcione el peso real del producto (ej. 1.5 kg, 500 g, 2.3 lbs)"
+
+#. module: product_characteristics
+#: model:ir.model.fields,help:product_characteristics.field_product_template__length_in_meters
+msgid "Specify the length of the product in meters"
+msgstr "Especifique la longitud del producto en metros"
+
+#. module: product_characteristics
+#: model:ir.model.fields,help:product_characteristics.field_product_template__width_in_millimeters
+msgid "Specify the width of the product in millimeters"
+msgstr "Especifique el ancho del producto en milímetros"
