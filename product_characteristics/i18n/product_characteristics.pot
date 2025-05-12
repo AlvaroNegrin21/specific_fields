@@ -6,7 +6,6 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-28 12:45+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -62,6 +61,12 @@ msgid "Describe the position of any openings on the product"
 msgstr ""
 
 #. module: product_characteristics
+#: model:ir.model.fields,help:product_characteristics.field_product_product__secondary_color_code
+#: model:ir.model.fields,help:product_characteristics.field_product_template__secondary_color_code
+msgid "Enter the code for a secondary or alternative color of the product"
+msgstr ""
+
+#. module: product_characteristics
 #: model:ir.model.fields,help:product_characteristics.field_product_product__cost_kilo_to_weight_label
 #: model:ir.model.fields,help:product_characteristics.field_product_template__cost_kilo_to_weight_label
 msgid "Enter the cost per kilogram related to the weight label"
@@ -77,13 +82,6 @@ msgstr ""
 #: model:ir.model.fields,help:product_characteristics.field_product_product__color_code
 #: model:ir.model.fields,help:product_characteristics.field_product_template__color_code
 msgid "Enter the internal or external code for the product's color"
-msgstr ""
-
-# NEW HELP TEXT ENTRY for secondary_color_code
-#. module: product_characteristics
-#: model:ir.model.fields,help:product_characteristics.field_product_product__secondary_color_code
-#: model:ir.model.fields,help:product_characteristics.field_product_template__secondary_color_code
-msgid "Enter the code for a secondary or alternative color of the product"
 msgstr ""
 
 #. module: product_characteristics
@@ -160,18 +158,19 @@ msgid "Product"
 msgstr ""
 
 #. module: product_characteristics
+#: model:ir.model.fields,help:product_characteristics.field_product_product__secondary_color
+#: model:ir.model.fields,help:product_characteristics.field_product_template__secondary_color
+msgid ""
+"Provide a descriptive name for a secondary or alternative color of the "
+"product"
+msgstr ""
+
+#. module: product_characteristics
 #: model:ir.model.fields,help:product_characteristics.field_product_product__color
 #: model:ir.model.fields,help:product_characteristics.field_product_template__color
 msgid ""
 "Provide a descriptive name for the product's color (e.g., Midnight Blue, "
 "Crimson Red)"
-msgstr ""
-
-# NEW HELP TEXT ENTRY for secondary_color
-#. module: product_characteristics
-#: model:ir.model.fields,help:product_characteristics.field_product_product__secondary_color
-#: model:ir.model.fields,help:product_characteristics.field_product_template__secondary_color
-msgid "Provide a descriptive name for a secondary or alternative color of the product"
 msgstr ""
 
 #. module: product_characteristics
@@ -205,6 +204,18 @@ msgstr ""
 #: model:ir.model.fields,field_description:product_characteristics.field_product_product__real_weight
 #: model:ir.model.fields,field_description:product_characteristics.field_product_template__real_weight
 msgid "Real Weight"
+msgstr ""
+
+#. module: product_characteristics
+#: model:ir.model.fields,field_description:product_characteristics.field_product_product__secondary_color
+#: model:ir.model.fields,field_description:product_characteristics.field_product_template__secondary_color
+msgid "Sec Color"
+msgstr ""
+
+#. module: product_characteristics
+#: model:ir.model.fields,field_description:product_characteristics.field_product_product__secondary_color_code
+#: model:ir.model.fields,field_description:product_characteristics.field_product_template__secondary_color_code
+msgid "Sec Color Code"
 msgstr ""
 
 #. module: product_characteristics
@@ -245,16 +256,7 @@ msgid "Weight Label"
 msgstr ""
 
 #. module: product_characteristics
-#: model:ir.model.fields,field_description:product_characteristics.field_product_template__secondary_color_code
-msgid "Secondary Color Code"
-msgstr ""
-
-#. module: product_characteristics
-#: model:ir.model.fields,field_description:product_characteristics.field_product_template__secondary_color
-msgid "Secondary Color"
-msgstr ""
-
-#. module: product_characteristics
+#: model:ir.model.fields,field_description:product_characteristics.field_product_product__width_in_millimeters
 #: model:ir.model.fields,field_description:product_characteristics.field_product_template__width_in_millimeters
 msgid "Width In Millimeters"
 msgstr ""
