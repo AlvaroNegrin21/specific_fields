@@ -234,6 +234,16 @@ msgid "Weight Label"
 msgstr ""
 
 #. module: product_characteristics
+#: model_terms:ir.ui.view,arch_db:product_characteristics.view_product_template_form_product_characteristics
+msgid "Sec Color"
+msgstr ""
+
+#. module: product_characteristics
+#: model_terms:ir.ui.view,arch_db:product_characteristics.view_product_template_form_product_characteristics
+msgid "Sec Color Code"
+msgstr ""
+
+#. module: product_characteristics
 #: model:ir.model.fields,field_description:product_characteristics.field_product_template__width_in_millimeters
 msgid "Width in Millimeters"
 msgstr ""

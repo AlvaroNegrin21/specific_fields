@@ -45,11 +45,11 @@
                             <field name="opening_position" />
                             <field name="opening_size" />
                             <field name="raw_size" />
-                            <label for="secondary_color_code" />
+                            <label for="secondary_color_code" string="Sec Color Code" />
                             <div class="o_row">
                                 <field name="secondary_color_code" nolabel="1" />
                                 <group>
-                                    <label for="secondary_color" />
+                                    <label for="secondary_color" string="Sec Color" />
                                 </group>
                                 <field name="secondary_color" nolabel="1" />
                             </div>
