@@ -91,12 +91,12 @@ class ProductCharacteristics(models.Model):
     )
 
     secondary_color_code = fields.Char(
-        string="Color Code",
+        string="Sec Color Code",
         help="Enter the code for a secondary or alternative color of the product",
     )
 
     secondary_color = fields.Char(
-        string="Color",
+        string="Sec Color",
         help=(
             "Provide a descriptive name for a "
             "secondary or alternative color of the product"
