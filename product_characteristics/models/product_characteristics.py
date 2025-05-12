@@ -89,3 +89,16 @@ class ProductCharacteristics(models.Model):
     width_in_millimeters = fields.Char(
         help="Specify the width of the product in millimeters",
     )
+
+    secondary_color_code = fields.Char(
+        string="Color Code",
+        help="Enter the code for a secondary or alternative color of the product",
+    )
+
+    secondary_color = fields.Char(
+        string="Color",
+        help=(
+            "Provide a descriptive name for a "
+            "secondary or alternative color of the product"
+        ),
+    )
